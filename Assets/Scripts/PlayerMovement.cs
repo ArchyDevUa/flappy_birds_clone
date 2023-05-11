@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     private CapsuleCollider _capsuleCollider;
     public Button _btn;
     private AudioSource _mainTheme;
-    [SerializeField] private AudioClip dieSound;
     [SerializeField] private AudioClip flySound;
     // Start is called before the first frame update
     void Start()
@@ -59,12 +58,12 @@ public class PlayerMovement : MonoBehaviour
 
     void gameOver()
     {
+        _mainTheme.Stop();
         _gm._isGameContinue = false;
         text.gameObject.SetActive(true);
         _capsuleCollider.isTrigger = true;
         _btn.gameObject.SetActive(true);
-        _mainTheme.Stop();
-        _mainTheme.PlayOneShot(dieSound, 1.0f);
+        
     }
 
     public void restartGame()

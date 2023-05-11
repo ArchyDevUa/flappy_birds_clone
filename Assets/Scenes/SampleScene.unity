@@ -375,7 +375,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 61c7f5622a393534e97b43f00f8d4ccd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.76
+  m_Volume: 0.33
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1243,6 +1243,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6788538756395232118, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538756691347373, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538757290762321, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538757290762321, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538757290762321, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 1.2382038
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538757290762321, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.9123606
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538757290762321, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.4561803
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788538757290762321, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.06516862
+      objectReference: {fileID: 0}
     - target: {fileID: 6788538757290762322, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1291,6 +1323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6788538757959556192, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.95
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
 --- !u!1 &2124526815 stripped
@@ -1313,8 +1349,7 @@ MonoBehaviour:
   speed: 7
   text: {fileID: 1022726319}
   _btn: {fileID: 1507059498}
-  dieSound: {fileID: 8300000, guid: 986fae5dff33e0847842fb3b03f4cc55, type: 3}
-  flySound: {fileID: 8300000, guid: 94618a0893814ed45a3332f3fddc401f, type: 3}
+  flySound: {fileID: 8300000, guid: 2d6e90f4d5e1e234a9c559ed3844e253, type: 3}
 --- !u!54 &2124526821
 Rigidbody:
   m_ObjectHideFlags: 0
